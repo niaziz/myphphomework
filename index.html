@@ -30,7 +30,7 @@
       
       <img src="./assets/img/profile.jpg" class="navbar-brand-img h-100 border-radius-xl" alt="main_logo">
       
-      <span class="ms-1 font-weight-bold">By Zarifullah Niazi</span>
+      <span class="ms-1 font-weight-bold">Zarifullah Niazi</span>
       
     </a>
   </div>
@@ -113,6 +113,76 @@
   
     <span class="nav-link-text ms-1">PHP Number</span>
   </a>
+</li></li>
+<li class="">
+  <a class="nav-link " href="#7">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">PHP Conditions</span>
+  </a>
+</li>
+<li class="">
+  <a class="nav-link " href="#8">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">PHP Loops</span>
+  </a>
+</li>
+<li class="">
+  <a class="nav-link " href="#9">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">PHP Functions</span>
+  </a>
+</li>
+<li class="">
+  <a class="nav-link " href="#10">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">PHP Array</span>
+  </a>
+</li>
+<li class="">
+  <a class="nav-link " href="#11">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">Php form Handling</span>
+  </a>
+</li>
+<li class="">
+  <a class="nav-link " href="#12">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">Cookies</span>
+  </a>
+</li>
+<li class="">
+  <a class="nav-link " href="#13">
+  
+    <div class="icon icon-shape icon-sm border-radius-md text-center me-2 d-flex align-items-center justify-content-center">
+      <i class="ni ni-fat-delete text-primary text-sm opacity-10"></i>
+    </div>
+  
+    <span class="nav-link-text ms-1">Sessions</span>
+  </a>
 </li>
 
 
@@ -128,28 +198,22 @@
         <nav>
       
           <h6 class="font-weight-bolder mb-0">Introduction to PHP</h6>
+          
       
         </nav>
       <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
-      <div class="ms-md-auto pe-md-3 d-flex align-items-center"></div>
 
 
       <ul class="navbar-nav  justify-content-end">
-        <li class="nav-item d-flex align-items-center">
-          <a href="javascript:;" class="nav-link  font-weight-bold px-0">
-            <i class="fa fa-user me-sm-1"></i>
-            
-            <span class="d-sm-inline">Zarifullah</span>
-            
+        <li class="nav-item d-xl-none ps-3 d-flex align-items-center">
+          <a href="javascript:;" class="nav-link text-white p-0" id="iconNavbarSidenav">
+            <div class="sidenav-toggler-inner">
+              <i class="sidenav-toggler-line bg-black"></i>
+              <i class="sidenav-toggler-line bg-black"></i>
+              <i class="sidenav-toggler-line bg-black"></i>
+            </div>
           </a>
         </li>
-        
-        <li class="nav-item px-3 d-flex align-items-center">
-          <a href="javascript:;" class="nav-link text-dark p-0">
-            <i class="fa fa-cog fixed-plugin-button-nav cursor-pointer"></i>
-          </a>
-        </li>
-
       </ul>
 
       </div>
@@ -445,57 +509,347 @@
     
     <div class=" h-100 p-auto">
     <div class="card-header pb-0 pt-2 bg-transparent">
-      <h4 class="text-capitalize p-2">PHP Number</h4>
+      <h4 class="text-capitalize p-2">PHP Conditions</h4>
       <hr>
     </div> 
     
     <div class="body-text pb-0 p-4">
-        <h5>PHP Number</h5>
-        <p>An integer is a none-decimal Number</p>
-        <h6> #1 strlen() - Returns the length of a string</h6>
+        <h5>PHP Conditions</h5>
+        <p>Like every other programming language Php use <code>if , else, elseif</code> key words to make decisions in code </p>
          
     </div>
-     
+    <p>statement - executes some code if one condition is true</p> 
+    <p>
+    switch statement - selects one of many blocks of code to be executed
+    </p>
+    <p>
+    if...elseif...else statement - executes different codes for more than two conditions
+    </p>
+    <p>
+    if...else statement - executes some code if a condition is true and another code if that condition is false
+    </p>
 
       <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
         <h6 class="text-white">Example</h6>
         &#8249;?php
-        echo strlen("Hello world!"); // outputs 12?>
+        <br>
+        $age = 18;
+        <br>
+        if(&age == 18){
+        <br>
+          echo 'You are 18 years old'
+        <br>
+        }else{
+        <br>
+          echo 'You are not 18 years old'
+        <br>
+        }
+        <br>
+        >
         
       </code>
-
-      <h6 class="m-3">#2 str_word_count() - Returns the number of words</h6>
-      <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
-        <h6 class="text-white">Example</h6>
-        &#8249;?php
-        echo str_word_count("Hello world!");
-        //outputs 2 ?>
-      </code>
-      <h6 class="m-3">#3 strrev() - Reverse the String</h6>
-      <h6 class="m-3">#4 strpos() - Search for a Text within String</h6>
-      <h6 class="m-3">#4 str_replace() - Replace text within String</h6>
-      
     </div>
   </div>
-  <div class="col-lg-6 mb-lg-2" id="1">
+
+  <div class="col-lg-6 mb-lg-2" id="8">
     <div class=" h-100 p-auto">
     <div class="card-header pb-0 pt-2 bg-transparent">
-      <h6 class="text-capitalize p-2"></h6>
+      <h6 class="text-capitalize p-2">PHP Loops</h6>
       <hr>
     </div> 
     
     <div class="body-text pb-0 p-4">
-        <p>Title</p>
-        <p>Text</p>
+        <p>Php Loops</p>
+      <p>
+        Often when you write code, you want the same block of code to run over and over again a certain number of times. So, instead of adding several almost equal code-lines in a script, we can use loops.
+</p>
+<p>
+Loops are used to execute the same block of code again and again, as long as a certain condition is true.
+
+</p>
+<p>
+In PHP, we have the following loop types:
+</p>
+<p>
+<code>
+  do...while
+</code> - loops through a block of code once, and then repeats the loop as long as the specified condition is true
+
+</p>
+<p>
+  <code>
+    for
+  </code>
+ - loops through a block of code a specified number of times
+
+</p>
+<p>
+  <code>
+    foreach 
+  </code>
+- loops through a block of code for each element in an array
+
+</p>
         <p>
-         
+          The following example will explain and give examples of each loop type.
         </p>
     </div>
       <code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
         <h6 class="text-white">Example</h6>
-       
+        ?php
+        <br>
+$i = 1;
+<br>
+do{
+  <br>
+    $i++;
+    <br>
+    echo "The number is " . $i . "";
+    <br>
+
+}
+<br>
+while($i <= 3);
+<br>
+?>
       </code>
+      <code class="card border-x1 col-lg-9 m-3 p-4">
+        for(initialization; condition; increment){
+          <br>
+          // Code to be executed
+        }
+ 
+      </code>
+      
     </div>
+</div>
+
+<div class="col-lg-6 mb-lg-2" id="9">
+  <div class=" h-100 p-auto">
+  <div class="card-header pb-0 pt-2 bg-transparent">
+    <h6 class="text-capitalize p-2">PHP Functions</h6>
+    <hr>
+  </div> 
+  
+  <div class="body-text pb-0 p-4">
+  
+<p>
+  A function is a block of statements that can be used repeatedly in a program.
+</p>
+<p>
+  A function will not execute automatically when a page loads.
+</p>
+ 
+<p>A function will be executed by a call to the function.</p>
+
+<h1>Syntax</h1>
+<code class="card border-x1 col-lg-9 m-3 p-4">
+  function functionName() {
+    <br>
+    code to be executed;
+    <br>
+  }
+</code>
+
+<code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+
+  <h4>Example</h4>
+  <?php
+  <br>
+function writeMsg() {
+  <br>
+  echo "Hello world!";
+  <br>
+}
+<br>
+
+writeMsg(); // call the function
+<br>
+?>
+</code>
+
+
+  </div>
+</div>
+
+
+</div>
+
+<div class="col-lg-6 mb-lg-2" id="10">
+  <div class=" h-100 p-auto">
+  <div class="card-header pb-0 pt-2 bg-transparent">
+    <h6 class="text-capitalize p-2">PHP Array</h6>
+    <hr>
+  </div> 
+  
+  <div class="body-text pb-0 p-4">
+  
+<p>
+  An array is a special variable, which can hold more than one value at a time.
+</p>
+
+<p>
+Indexed arrays - Arrays with a numeric index
+
+</p>
+<p>
+Associative arrays - Arrays with named keys
+
+</p>
+<P>
+Multidimensional arrays - Arrays containing one or more arrays
+
+</P>
+
+<h1>Syntax</h1>
+<code class="card border-x1 col-lg-9 m-3 p-4">
+   $newArray = array('One','two');
+  
+</code>
+
+<code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+
+  <h4>Example</h4>
+  <?php
+  <br>
+$cars = array("Volvo", "BMW", "Toyota");
+<br>
+echo count($cars);
+<br>
+?>
+<br>
+</code>
+
+
+  </div>
+</div>
+
+
+</div>
+
+<div class="col-lg-6 mb-lg-2" id="11">
+  <div class=" h-100 p-auto">
+  <div class="card-header pb-0 pt-2 bg-transparent">
+    <h6 class="text-capitalize p-2">PHP From Handling</h6>
+    <hr>
+  </div> 
+  
+  <div class="body-text pb-0 p-4">
+  
+<p>
+ You can gather data from a simple HTML page in php using forms
+</p>
+
+
+
+
+<code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+
+ 
+</code>
+
+
+  </div>
+</div>
+
+
+</div>
+<div class="col-lg-6 mb-lg-2" id="12">
+  <div class=" h-100 p-auto">
+  <div class="card-header pb-0 pt-2 bg-transparent">
+    <h6 class="text-capitalize p-2">Cookies in Php</h6>
+    <hr>
+  </div> 
+  
+  <div class="body-text pb-0 p-4">
+  
+<p>
+  A cookie is created with the <code>
+    setcookies()
+  </code> function.
+
+<h4>PHP Create/Retrieve a Cookie</h4>
+
+<p>
+The following example creates a cookie named "user" with the value "John Doe". The cookie will expire after 30 days (86400 * 30). The "/" means that the cookie is available in entire website (otherwise, select the directory you prefer).
+
+</p>
+<p>
+We then retrieve the value of the cookie "user" (using the global variable $_COOKIE). We also use the isset() function to find out if the cookie is set:
+
+</p>
+
+<code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+
+  $cookie_name = "user";
+  <br>
+  $cookie_value = "John Doe";
+  <br>
+  setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/");
+  <br>
+if(!isset($_COOKIE[$cookie_name])) {
+  <br>
+  echo "Cookie named '" . $cookie_name . "' is not set!";
+  <br>
+} else {
+  <br>
+  echo "Cookie '" . $cookie_name . "' is set!";
+  <br>
+  echo "Value is: " . $_COOKIE[$cookie_name];
+}
+?>
+ 
+</code>
+
+
+  </div>
+</div>
+
+
+</div>
+
+<div class="col-lg-6 mb-lg-2" id="12">
+  <div class=" h-100 p-auto">
+  <div class="card-header pb-0 pt-2 bg-transparent">
+    <h6 class="text-capitalize p-2">What is Sessions?</h6>
+    <hr>
+  </div> 
+  
+  <div class="body-text pb-0 p-4">
+  
+<P class="text-wrap">
+  When you work with an application, you open it, do some changes, and then you close it. This is much like a Session. The computer knows who you are. It knows when you start the application and when you end. But on the internet there is one problem: the web server does not know who you are or what you do, because the HTTP address doesn't maintain state.
+
+Session variables solve this problem by storing user information to be used across multiple pages (e.g. username, favorite color, etc). By default, session variables last until the user closes the browser.
+
+So; Session variables hold information about one single user, and are available to all pages in one application.
+</P>
+
+<h4>Start Session</h4>
+
+<p>A session start with the function <code>
+  session_start()
+</code></p>
+
+
+<code class="card border-x1 col-lg-9 m-3 p-4 text-white bg-default" >
+  <?php
+  <br>
+  // Start the session
+  session_start();
+  <br>
+  $_SESSION["favcolor"] = "green";
+  <br>
+$_SESSION["favanimal"] = "cat";
+<br>
+echo "Session variables are set.";
+<br>
+?>
+ 
+</code>
+
+
+  </div>
 </div>
 
 
